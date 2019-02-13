@@ -1,0 +1,37 @@
+<root>
+    <!-- 
+        BASE：在base可见，不需要同步。
+        BASE_AND_CLIENT：在base和client可见，从base同步到client。
+        CELL_PRIVATE：在cell可见，不需要同步。
+        CELL_PUBLIC：在cell可见，从实体real部分同步到其他cell。real的概念参见ghost和real的概念
+        （可以理解为在CELL_PRIVATE的基础上，增加了cell之间的同步）
+        CELL_PUBLIC_AND_OWN：在cell和client可见，从cell上的实体real部分同步到自己的client以及其他cell。
+        （可以理解为在CELL_PUBLIC的基础上，增加了向client的同步）
+        ALL_CLIENTS：在cell和client可见，从cell上的实体real部分同步到所有client(包括自己的client)以及其他cell。
+        （可以理解为在CELL_PUBLIC_AND_OWN的基础上，增加了其他所有client的同步）
+        OWN_CLIENT：在cell和client可见，从cell同步到client。
+        （可以理解为在CELL_PUBLIC_AND_OWN的基础上，减少了对其他cell的同步）
+        OTHER_CLIENTS：在cell和client可见，从cell上的实体real部分同步到所有client(排除自己的client)以及其他cell。
+        （可以理解为在ALL_CLIENTS的基础上，减少了对自己的client的同步）
+     -->
+
+    <!-- 异变数据-->
+    <Volatile>
+        <position/>
+        <yaw/>
+        <!--<pitch> 20 </pitch>-->
+    </Volatile>
+
+    <!-- 属性-->
+    <Properties>
+    </Properties>
+    <!-- Base方法-->
+    <BaseMethods>
+    </BaseMethods>
+    <!-- Cell方法-->
+    <CellMethods>
+    </CellMethods>
+    <!--客戶端方法-->
+    <ClientMethods>
+    </ClientMethods>
+</root>

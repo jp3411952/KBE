@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import KBEngine
 from KBEDebug import *
+
 
 class Account(KBEngine.Proxy):
 	def __init__(self):
@@ -14,6 +14,7 @@ class Account(KBEngine.Proxy):
 		@param userArg	: addTimer 最后一个参数所给入的数据
 		"""
 		DEBUG_MSG(id, userArg)
+		
 		
 	def onClientEnabled(self):
 		"""

@@ -29,48 +29,48 @@
 	<ENTITYID_LIST> ARRAY <of> ENTITY_ID </of>	</ENTITYID_LIST>
 
 
-	<AVATAR_DATA>	FIXED_DICT
-		<implementedBy>AVATAR_DATA.AVATAR_DATA_PICKLER</implementedBy>
-		<Properties>
-			<param1>
-				<Type>	INT8	</Type>
-			</param1>
-			<param2>
-				<Type>	BLOB	</Type>
-			</param2>
-		</Properties>
-	</AVATAR_DATA>	
-	
-	<AVATAR_INFOS>	FIXED_DICT
-		<implementedBy>AVATAR_INFOS.avatar_info_inst</implementedBy>
-		<Properties>
-			<dbid>
-				<Type>	DBID	</Type>
-			</dbid>
-			<name>
-				<Type>	UNICODE	</Type>
-				<DatabaseLength> 256 </DatabaseLength>
-			</name>
-			<roleType>
-				<Type>	UINT8	</Type>
-			</roleType>
-			<level>
-				<Type>	UINT16	</Type>
-			</level>
-			<data>
-				<Type>	AVATAR_DATA	</Type>
-			</data>
-		</Properties>
-	</AVATAR_INFOS>	
-	
-	<AVATAR_INFOS_LIST>	FIXED_DICT
-		<implementedBy>AVATAR_INFOS.AVATAR_INFOS_LIST_PICKLER</implementedBy>
-		<Properties>
-			<values>
-				<Type>	ARRAY <of> AVATAR_INFOS </of>	</Type>
-			</values>
-		</Properties>
-	</AVATAR_INFOS_LIST>	
+	<!--<AVATAR_DATA>	FIXED_DICT-->
+		<!--<implementedBy>AVATAR_DATA.AVATAR_DATA_PICKLER</implementedBy>-->
+		<!--<Properties>-->
+			<!--<param1>-->
+				<!--<Type>	INT8	</Type>-->
+			<!--</param1>-->
+			<!--<param2>-->
+				<!--<Type>	BLOB	</Type>-->
+			<!--</param2>-->
+		<!--</Properties>-->
+	<!--</AVATAR_DATA>	-->
+	<!---->
+	<!--<AVATAR_INFOS>	FIXED_DICT-->
+		<!--<implementedBy>AVATAR_INFOS.avatar_info_inst</implementedBy>-->
+		<!--<Properties>-->
+			<!--<dbid>-->
+				<!--<Type>	DBID	</Type>-->
+			<!--</dbid>-->
+			<!--<name>-->
+				<!--<Type>	UNICODE	</Type>-->
+				<!--<DatabaseLength> 256 </DatabaseLength>-->
+			<!--</name>-->
+			<!--<roleType>-->
+				<!--<Type>	UINT8	</Type>-->
+			<!--</roleType>-->
+			<!--<level>-->
+				<!--<Type>	UINT16	</Type>-->
+			<!--</level>-->
+			<!--<data>-->
+				<!--<Type>	AVATAR_DATA	</Type>-->
+			<!--</data>-->
+		<!--</Properties>-->
+	<!--</AVATAR_INFOS>	-->
+	<!---->
+	<!--<AVATAR_INFOS_LIST>	FIXED_DICT-->
+		<!--<implementedBy>AVATAR_INFOS.AVATAR_INFOS_LIST_PICKLER</implementedBy>-->
+		<!--<Properties>-->
+			<!--<values>-->
+				<!--<Type>	ARRAY <of> AVATAR_INFOS </of>	</Type>-->
+			<!--</values>-->
+		<!--</Properties>-->
+	<!--</AVATAR_INFOS_LIST>
 	
 	<BAG>	FIXED_DICT
 		<Properties>
@@ -91,6 +91,6 @@
 				<Type>	INT64	</Type>
 			</k2>
 		</Properties>
-	</EXAMPLES>	
+	</EXAMPLES>	-->
 	
 </root>

@@ -9,7 +9,7 @@
     </content>
     <content url="file://$MODULE_DIR$/../server_common" />
     <content url="file://$MODULE_DIR$/../user_type" />
-    <orderEntry type="jdk" jdkName="Python 3.6 (login)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (login)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
