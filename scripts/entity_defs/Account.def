@@ -1,12 +1,7 @@
 <root>
 	<Properties>
 		<!--角色列表信息 便于账户实体操作-->
-		<avaterList>
-			<Type>					</Type>
-			<Utype> 				</Utype>
-			<Flags>		 BASE		</Flags>
-			<Persistent> true		</Persistent>
-		</avaterList>
+	
 	</Properties>
 
 	<ClientMethods>

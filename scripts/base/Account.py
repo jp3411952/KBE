@@ -29,12 +29,7 @@ class Account(KBEngine.Proxy):
 		@param userArg	: addTimer 最后一个参数所给入的数据
 		"""
 		DEBUG_MSG(id, userArg)
-<<<<<<< HEAD
-		
-		
-=======
 
->>>>>>> 2a1449d319b0c1b2048237bea59bc539f8d2105c
 	def onClientEnabled(self):
 		"""
 		KBEngine method.
