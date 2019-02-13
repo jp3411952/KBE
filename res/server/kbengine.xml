@@ -65,8 +65,9 @@
 					（Database auth)
 				-->
 				<auth>  
-					<username> kbe </username>									<!-- Type: String -->
-					<password> zjy0822 </password>							<!-- Type: String -->
+					<databaseName> mykbe </databaseName> 
+					<!--<username> kbe </username>	-->								<!-- Type: String -->
+					<!--<password> zjy0822 </password>	 -->					<!-- Type: String -->
 					
 					<!-- 为true则表示password是加密(rsa)的, 可防止明文配置 
 						(is true, password is RSA)

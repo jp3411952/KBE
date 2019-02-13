@@ -438,3 +438,5 @@ scripts/cell/venv/Scripts/easy_install-script.py
 scripts/cell/venv/Scripts/pip-script.py
 scripts/cell/venv/Scripts/pip3-script.py
 scripts/cell/venv/Scripts/pip3.6-script.py
+scripts/base/.idea/workspace.xml
+*.iml

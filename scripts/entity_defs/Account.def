@@ -1,14 +1,30 @@
 <root>
 	<Properties>
+		<!--角色列表信息 便于账户实体操作-->
+		<avaterList>
+			<Type>					</Type>
+			<Utype> 				</Utype>
+			<Flags>		 BASE		</Flags>
+			<Persistent> true		</Persistent>
+		</avaterList>
 	</Properties>
 
 	<ClientMethods>
+		<!-- 返回角色列表-->
+		<OnReqAvatarList>
+
+		</OnReqAvatarList>
 	</ClientMethods>
 
 	<BaseMethods>
+		<!--获得角色列表-->
+		<GetAvatarList>
+			<Exposed/>
+		</GetAvatarList>
 	</BaseMethods>
 
 	<CellMethods>
 	</CellMethods>
+
 
 </root>
